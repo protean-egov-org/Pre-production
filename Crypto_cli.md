@@ -1,6 +1,8 @@
 #   ONDC ONBOARDING CLI TOOL
 
-Please [Download Jar](ondc-onboarding.jar) and follow below mentioned documentation:
+* This utility has been tested on Win 10 and Suse Enterprise 11 (JRE 16 and 18) 
+* Pre-requisite for this utility is to have Java Runtime Environment
+* Please [Download Jar](ondc-onboarding.jar) and follow below mentioned documentation.
 
 This tool is designed to help the network participants in Onboarding process.   This covers step 7 to step 11 from [Onboarding Document](https://github.com/ONDC-Official/developer-docs/blob/main/registry/Onboarding%20of%20Participants.md).  It is a java jar file which takes ``subscriber_id`` as input from the user and generates the ``signing keys``, ``encryption keys``, ``request_id`` and signs request id and creates ``ondc-site-verification.html`` programmatically.  All will be stored in different files.  This utility is compatible for windows platform as well unix platform.
 
